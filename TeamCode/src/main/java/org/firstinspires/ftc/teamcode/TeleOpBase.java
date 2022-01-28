@@ -22,8 +22,5 @@ public class TeleOpBase extends CommandOpMode {
 
         driverGamepad.dpadUp.whenPressedReleased(robot::raiseArm, robot::stopArm);
         driverGamepad.dpadDown.whenPressedReleased(robot::raiseArm, robot::stopArm);
-
-        driverGamepad.a.whenPressed(robot::open);
-        driverGamepad.b.whenPressed(robot::close);
     }
 }

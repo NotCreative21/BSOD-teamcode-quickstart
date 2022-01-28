@@ -60,7 +60,7 @@ public class Robot implements Loggable {
     public void carouselStop(){
         carousel.setSpeed(0);
     }
-    
+
     @Log.NumberSlider(name="Carousel", index=1, slider = Color.YELLOW, sliderBackground = Color.ORANGE)
     public double getCarousel(){
         return carousel.getSpeed();
