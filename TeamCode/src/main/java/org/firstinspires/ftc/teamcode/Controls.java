@@ -1,7 +1,8 @@
 package org.firstinspires.ftc.teamcode;
 
-import com.technototes.library.control.gamepad.CommandButton;
-import com.technototes.library.control.gamepad.CommandGamepad;
+
+import com.technototes.library.control.CommandButton;
+import com.technototes.library.control.CommandGamepad;
 
 import org.firstinspires.ftc.teamcode.commands.ExampleCommand;
 
